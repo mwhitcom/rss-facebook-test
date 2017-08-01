@@ -6,8 +6,6 @@
     "description": "RSS Feed for newly created playlists on Playlist Palace",
     "icon": "Image URL",
     "items": [
-        {
-            "html_content": {}
-        }
+        {}
     ]
 }

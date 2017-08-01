@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Post = mongoose.model('Post');
+const { createMarkup } = require('./markupController');
 
 // Code for feed creation
 const Feed = require('feed');
@@ -16,23 +17,14 @@ const feed = new Feed({
 	feedLinks: {
 		json: 'http://playlistpalace.com/rss/rssfeed.json',
 		xml: 'http://playlistpalace.com/rss/rssfeed.xml'
-	},
-	content: {
-		genre: 'Genre of playlist',
-		spotify_url: 'URL to Spotify playlist',
-		itunes_url: 'URL to iTunes playlist'
 	}
 });
 
-function addToFeed(post) {
+function addToFeed(post, markup) {
 	feed.addItem({
 			title: post.playlist_name,
 			image: post.image,
-			content: {
-				genre: post.genre,
-				spotify_url: post.spotify_url,
-				itunes_url: post.itunes_url
-			}
+			content: markup
 	});
 
   const rssDocJSON = feed.json1();
@@ -54,7 +46,8 @@ exports.renderCreate = (req, res) => {
 }
 
 exports.createPost = async (req, res) => {
-	const feedPost = await addToFeed(req.body); // call feed creation function
+	const markup = await createMarkup(req.body);
+	const feedPost = await addToFeed(req.body, markup); // call feed creation function
   const post = await (new Post(req.body)).save();
   res.redirect('/');
 }
