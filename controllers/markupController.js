@@ -11,12 +11,12 @@ exports.createMarkup = (post) => {
 	  <body>
 	    <article>
 	      <header>
-	        <h1>${post.title}</h1>
+	        <h1>${post.playlist_name}</h1>
 	        <h2>Article Subtitle</h2>
 	        <time class="op-published" datetime=${date}>${date}</time>  
 	        <figure>
 	          <img src="${post.image}"" />
-	          <figcaption>${post.title}</figcaption>
+	          <figcaption>${post.playlist_name}</figcaption>
 	        </figure>      
 	      </header>
 				<figure>
