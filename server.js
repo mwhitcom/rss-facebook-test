@@ -1,6 +1,4 @@
 // Server Dependencies
-require('dotenv').config({ path: 'variables.env' });
-
 const express = require('express');
 const exphbs = require("express-handlebars");
 const bodyParser = require('body-parser');
@@ -16,21 +14,14 @@ mongoose.connection.on('error', (err) => {
 });
 
 require('./models/Post');
-
 const postControllers = require('./controllers/postControllers');
-
-// const catchErrors = (fn) => {
-//   return function(req, res, next) {
-//     return fn(req, res, next).catch(next);
-//   };
-// };
 
 // Express Instance
 let app = express();
 let router = express.Router;
 
 // Set Port
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7777;
 
 // bodyParser
 app.use(bodyParser.json());
@@ -46,7 +37,7 @@ app.use(express.static("./public"));
 // Main route
 app.get('/', postControllers.getPosts);
 
-// Projects route
+// Create routes
 app.get('/create', postControllers.renderCreate);
 
 app.post('/create', postControllers.createPost);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Playlist Palace</title>
+        <link>http://playlistpalace.com</link>
+        <description>RSS Feed for newly created playlists on Playlist Palace</description>
+        <lastBuildDate>Tue, 01 Aug 2017 17:06:20 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Playlist Palace</title>
+            <url>Image URL</url>
+            <link>http://playlistpalace.com</link>
+        </image>
+        <item>
+            <content:encoded><![CDATA[[object Object]]]></content:encoded>
+        </item>
+    </channel>
+</rss>
