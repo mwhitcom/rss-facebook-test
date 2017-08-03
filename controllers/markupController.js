@@ -11,17 +11,21 @@ exports.createMarkup = (post) => {
 	  <body>
 	    <article>
 	      <header>
-	        <h1>${post.playlist_name}</h1>
-	        <h2>Article Subtitle</h2>
-	        <time class="op-published" datetime=${date}>${date}</time>  
+	        <h1>Playlist Palace</h1>
 	        <figure>
-	          <img src="${post.image}"" />
-	          <figcaption>${post.playlist_name}</figcaption>
-	        </figure>      
+	          <img src="${post.image}" />
+	        </figure>
+	        <h2>${post.playlist_name}</h2>
+	        <time class="op-published" datetime=${date}>${date}</time>        
 	      </header>
+	      <p>Stream On:</p>
 				<figure>
-					<a href="${post.spotify_url}">Spotify</a>
-					<a href="${post.itunes_url}">iTunes</a>
+					<a href=#><img src=#></a>
+					<a href=#><img src=#></a>
+					<a href=#><img src=#></a>
+					<a href=#><img src=#></a>
+					<a href=#><img src=#></a>
+					<a href=#><img src=#></a>
 				</figure>
 	    </article>
 	  </body>
