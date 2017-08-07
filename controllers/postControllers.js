@@ -58,6 +58,6 @@ exports.getPosts = async (req, res) => {
 }
 
 exports.singlePost = async (req, res) => {
-	const post = await Post.findOne({ playlist_name: req.params.name });
+	const post = await Post.findOne({ _id: req.params.id });
 	res.render('single-playlist', { post });
 }

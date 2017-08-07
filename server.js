@@ -42,7 +42,7 @@ app.get('/create', postControllers.renderCreate);
 
 app.post('/create', postControllers.createPost);
 
-app.get('/playlist/:name', postControllers.singlePost);
+app.get('/playlist/:id', postControllers.singlePost);
 
 // Listener
 app.listen(PORT, () => {
