@@ -18,13 +18,8 @@ exports.createMarkup = (post) => {
 	        <time class="op-published" datetime=${date}>${date}</time>        
 	      </header>
 	      <p>Stream On:</p>
-				<figure>
-					<a href=#><img src="https://calm-wildwood-87141.herokuapp.com/assets/images/google-icon.png"></a>
-					<a href=#><img src="https://calm-wildwood-87141.herokuapp.com/assets/images/itunes-icon.png"></a>
-					<a href=#><img src="https://calm-wildwood-87141.herokuapp.com/assets/images/spotify-icon.png"></a>
-					<a href=#><img src="https://calm-wildwood-87141.herokuapp.com/assets/images/tidal-icon.png"></a>
-					<a href=#><img src="https://calm-wildwood-87141.herokuapp.com/assets/images/youtube-icon.png"></a>
-					<a href=#><img src="https://calm-wildwood-87141.herokuapp.com/assets/images/amazon-icon.png"></a>
+				<figure class="op-interactive">
+					<iframe src="https://vine.co/v/Ot2mpV1YO6F/embed/simple" width="600" height="600"></iframe>
 				</figure>
 	    </article>
 	  </body>
