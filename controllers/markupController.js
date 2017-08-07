@@ -20,6 +20,7 @@ exports.createMarkup = (post) => {
 				<figure class="op-interactive">
 					<iframe src="https://calm-wildwood-87141.herokuapp.com/playlist/${post._id}" width="600" height="600"></iframe>
 				</figure>
+				<p>Playlist Radio</p>
 	    </article>
 	  </body>
 		</html>`

@@ -46,9 +46,10 @@ exports.renderCreate = (req, res) => {
 }
 
 exports.createPost = async (req, res) => {
-	const markup = await createMarkup(req.body);
-	const feedPost = await addToFeed(req.body, markup); // call feed creation function
-  const post = await (new Post(req.body)).save();
+	const post = await (new Post(req.body)).save();
+	const fullPost = await Post.findOne({ playlist_name: req.body.playlist_name});
+	const markup = await createMarkup(fullPost);
+	const feedPost = await addToFeed(fullpost, markup);
   res.redirect('/');
 }
 
