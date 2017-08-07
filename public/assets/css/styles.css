@@ -1,0 +1,9 @@
+.single-playlist-container {
+  width: 600px;
+  text-align: center;
+}
+
+td {
+  width: 85px !important;
+  padding: 0;
+}

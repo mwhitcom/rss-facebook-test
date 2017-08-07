@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Playlist Palace</title>
+        <link>http://playlistpalace.com</link>
+        <description>RSS Feed for newly created playlists on Playlist Palace</description>
+        <lastBuildDate>Mon, 07 Aug 2017 21:26:54 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Playlist Palace</title>
+            <url>Image URL</url>
+            <link>http://playlistpalace.com</link>
+        </image>
+        <item>
+        </item>
+    </channel>
+</rss>

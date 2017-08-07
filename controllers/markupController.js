@@ -18,7 +18,7 @@ exports.createMarkup = (post) => {
 	        <time class="op-published" datetime=${date}>${date}</time>        
 	      </header>
 				<figure class="op-interactive">
-					<iframe src="https://calm-wildwood-87141.herokuapp.com/playlist/${post.playlist_name}" width="600" height="600"></iframe>
+					<iframe src="https://calm-wildwood-87141.herokuapp.com/playlist/${post._id}" width="600" height="600"></iframe>
 				</figure>
 	    </article>
 	  </body>
