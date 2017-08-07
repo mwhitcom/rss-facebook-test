@@ -42,6 +42,8 @@ app.get('/create', postControllers.renderCreate);
 
 app.post('/create', postControllers.createPost);
 
+app.get('/playlist/:name', postControllers.singlePost);
+
 // Listener
 app.listen(PORT, () => {
   console.log(`App listening on PORT: ${PORT}`);

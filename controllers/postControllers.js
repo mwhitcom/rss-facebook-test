@@ -56,3 +56,8 @@ exports.getPosts = async (req, res) => {
   const posts = await Post.find();
   res.render('index', { posts }, addToFeed(posts));
 }
+
+exports.singlePost = async (req, res) => {
+	const post = await Post.findOne({ playlist_name: req.params.name });
+	res.render('single-playlist', { post });
+}
