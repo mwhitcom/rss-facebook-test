@@ -17,13 +17,11 @@ exports.createMarkup = (post) => {
 					<h1>${post.playlist_name}</h1>
 					<h2>
 						<a href=${post.itunes_url}>iTunes |</a>
-						<a href=${post.itunes_url}> Spotify |</a>
-						<a href=${post.itunes_url}> Tidal</a>
-					</h2>
-					<h2>
+						<a href=${post.itunes_url}>Spotify |</a>
+						<a href=${post.itunes_url}>Tidal |</a>
 						<a href=${post.itunes_url}>Amazon |</a>
-						<a href=${post.itunes_url}> Google |</a>
-						<a href=${post.itunes_url}> Youtube</a>
+						<a href=${post.itunes_url}>Google |</a>
+						<a href=${post.itunes_url}>Youtube</a>
 					</h2>
 	        <time class="op-published" datetime=${date}>${date}</time>        
 				</header>
