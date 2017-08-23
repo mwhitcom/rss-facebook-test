@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Playlist Palace",
+    "home_page_url": "http://playlistpalace.com",
+    "feed_url": "http://playlistpalace.com/rss/rssfeed.json",
+    "description": "RSS Feed for newly created playlists on Playlist Palace",
+    "icon": "Image URL",
+    "items": [
+        {},
+        {
+            "html_content": "<!doctype html>\n\t\t<html lang=\"en\" prefix=\"op: http://media.facebook.com/op#\">\n\t\t<head>\n  \t\t<meta charset=\"utf-8\">  \n  \t\t<link rel=\"canonical\" href=\"https://static.pexels.com/photos/186077/pexels-photo-186077.jpeg/\">\n  \t\t<meta property=\"op:markup_version\" content=\"v1.0\">\n\t\t</head>\n\t  <body>\n\t    <article>\n\t\t\t\t<header>\n\t        <figure>\n\t          <img src=\"https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg\" />\n\t\t\t\t\t</figure>\n\t\t\t\t\t<h1>Test</h1>\n\t\t\t\t\t<h2>\n\t\t\t\t\t\t<a href=https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg>iTunes</a>|<a href=https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg>Spotify</a>|<a href=https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg>Tidal</a>|<a href=https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg>Amazon</a>|<a href=https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg>Google</a>|<a href=https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg>Youtube</a>\n\t\t\t\t\t</h2>\n\t        <time class=\"op-published\" datetime=Tue Aug 22 2017 23:24:34 GMT-0700 (PDT)>Tue Aug 22 2017 23:24:34 GMT-0700 (PDT)</time>        \n\t\t\t\t</header>\n\t\t\t\t<p>Song List</p>\n\t\t\t\t<ol>\n\t\t\t\t\t<li>Song Title</li>\n\t\t\t\t\t<li>Song Title</li>\n\t\t\t\t\t<li>Song Title</li>\n\t\t\t\t\t<li>Song Title</li>\n\t\t\t\t\t<li>Song Title</li>\n\t\t\t\t\t<li>Song Title</li>\n\t\t\t\t</ol>\n\t    </article>\n\t  </body>\n\t\t</html>",
+            "title": "Test",
+            "image": "https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg"
+        },
+        {}
+    ]
+}

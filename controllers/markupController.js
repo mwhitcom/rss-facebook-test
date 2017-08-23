@@ -5,11 +5,11 @@ exports.createMarkup = (post) => {
 		<html lang="en" prefix="op: http://media.facebook.com/op#">
 		<head>
   		<meta charset="utf-8">  
-  		<link rel="canonical" href="https://calm-wildwood-87141.herokuapp.com/">
+  		<link rel="canonical" href="https://static.pexels.com/photos/186077/pexels-photo-186077.jpeg/">
   		<meta property="op:markup_version" content="v1.0">
 		</head>
 	  <body>
-	    <article>https://media.giphy.com/media/ICtmuwLLs1q48/giphy.gif
+	    <article>
 				<header>
 	        <figure>
 	          <img src="${post.image}" />
